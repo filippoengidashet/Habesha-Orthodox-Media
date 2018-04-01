@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.dalol.habeshaorthodoxmedia.ui.widgets.SquareCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="@drawable/common_ripple"
+    app:cardCornerRadius="3dp"
+    app:cardBackgroundColor="@color/colorWhite"
+    app:cardElevation="2dp"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="false">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/menu_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <org.dalol.habeshaorthodoxmedia.ui.widgets.HabeshaTextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="TextView"
+            android:textSize="15sp"
+            app:autoSizeTextType="uniform"
+            android:textColor="@color/colorBlack"
+            android:background="@color/colorLightGray3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/appCompatImageView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="32dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toTopOf="@+id/guideline"
+            app:layout_constraintDimensionRatio="w,1:1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="337dp"
+            app:layout_constraintGuide_percent="0.7" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</org.dalol.habeshaorthodoxmedia.ui.widgets.SquareCardView>

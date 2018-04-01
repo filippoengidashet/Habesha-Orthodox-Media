@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Habesha Orthodox Media</string>
+    <string name="app_name_abbreviated">HOM</string>
+    <string name="openDrawer">Drawer Opened</string>
+    <string name="closeDrawer">Drawer Closed</string>
+
+    <string name="admob_app_id">ca-app-pub-5489846298805329~3806322530</string>
+    <string name="admob_banner_ad_unit_id">ca-app-pub-5489846298805329/6400341065</string>
+    <string name="admob_interstitial_ad_unit_id">ca-app-pub-5489846298805329/9657415015</string>
+    <string name="admob_rewarded_ad_unit_id">ca-app-pub-5489846298805329/4213516647</string>
+</resources>

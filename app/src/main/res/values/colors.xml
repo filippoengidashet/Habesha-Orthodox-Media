@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2099FF</color>
+    <color name="colorPrimaryDark">#048BFE</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorLightGreen">#34D57E</color>
+    <color name="colorGreen">#29D268</color>
+    <color name="colorRed">#F56055</color>
+    <color name="colorLightGray">#FAFAFA</color>
+    <color name="colorLightGray1">#F2F2F2</color>
+    <color name="colorLightGray2">#E3E4E4</color>
+    <!--<color name="colorLightGray3">#e1e1e1</color>-->
+    <color name="colorLightGray3">#E3E4E4</color>
+    <!--<color name="colorLightGray3">#F2F2F2</color>-->
+    <color name="colorLightGray4">#ebeff2</color>
+    <color name="colorLightBlue">#bde7f7</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorActiveNavigationItem">#EDEDED</color>
+
+
+    <!--<color name="colorBlack">#F44B39</color>-->
+    <!--<color name="colorBlack">#4054b2</color>-->
+    <!--<color name="colorBlack">#1fbcd2</color>-->
+    <!--<color name="colorBlack">#159588</color>-->
+    <!--<color name="colorBlack">#8cc152</color>-->
+    <!--<color name="colorBlack">#f8cd38</color>-->
+</resources>
